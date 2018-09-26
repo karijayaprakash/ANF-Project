@@ -22,7 +22,7 @@ public class Login {
 	driver.findElement(By.cssSelector("input#login-phone-field")).sendKeys("9854589875");
 	driver.findElement(By.cssSelector("input#legalOptIn")).click();
 	driver.findElement(By.cssSelector("button.js-create-account-submit")).click();
-	driver.quit();
+	//driver.quit();
 
 }
 }
